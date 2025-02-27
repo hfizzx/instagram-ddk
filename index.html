@@ -27,17 +27,21 @@
     }
 
     button {
-        background-color: #444; 
+      background-color: #999;
         border: none; 
-        width: 100%; 
-        height: 30px; 
-        color: white;
-        transition: 1s;
+        width: 80%; 
+        height: 35px; 
+        color: black;
+        transition: 0.8s ;
         border-radius: 25px;
+        cursor: pointer;
+        font-size: small;
+        font-weight: bold;
+        margin: 7px;
         }
 
     button:hover {
-        background-color: #777;
+        background-color: #444;
     }
 
     td.EP {
@@ -51,15 +55,26 @@
     }
 
     .container {
-        background-color: #9999;
+        background-color: #999;
     }
 
-    .transisi {
-        transition: all 2s;
+    .try {
+        transition: all 0.2s ease-in-out;
+        margin: 3px;
+        margin-bottom: 5px;
     }
 
-    .transisi:hover {
-        
+    .try:hover {
+        background-color: #333;
+        transform: scale(1.1);
+    }
+
+    .PP {
+      transition: all 0.2s ease-in-out;
+    }
+
+    .PP:hover {
+      transform: scale(1.1);
     }
   </style>
   <body>
@@ -80,6 +95,7 @@
                   alt=""
                   srcset=""
                   style="border-radius: 50%"
+                  class="PP"
                 />
               </td>
               <td width="20%">
@@ -109,8 +125,14 @@
 
             </tr>
             <tr>
-                <td colspan="2" align="center" class="EP">&#127995;</td>
-                <td colspan="2" align="center" class="EP">&#128373;</td>
+                <td colspan="2" align="center" >
+                  <button class="EP">⬛</button>
+                </td>
+                <td colspan="2" align="center" >
+                  <button class="EP">▶️</button>
+                </td>
+                
+                
             </tr>
 
           </table>
@@ -118,37 +140,37 @@
           <table border="0" width="100%" align="center">
             <tr>
                 <td width="100%">
-                  <img src="images/java.png" alt="" width="100%" class="transisi">                   
+                  <img src="images/java.png" alt="" width="100%" class="try">                   
                 </td>
                 <td width="100%">
-                    <img src="images/chill.png" alt="" class="transisi">
+                    <img src="images/chill.png" alt="" class="try">
                 </td>
                 <td width="100%">
-                    <img src="images/not.png" alt="" class="transisi">
+                    <img src="images/not.png" alt="" class="try">
                 </td>
             </tr>
 
             <tr>
                 <td width="100%">
-                  <img src="images/yoww.png" alt="" width="100%">                   
+                  <img src="images/yoww.png" alt="" width="100%" class="try">                   
                 </td>
                 <td width="100%">
-                    <img src="images/stonss.png" alt="">
+                    <img src="images/stonss.png" alt="" class="try">
                 </td>
                 <td width="100%">
-                    <img src="images/hhhh.png" alt="" width="100%">
+                    <img src="images/hhhh.png" alt="" width="100%" class="try">
                 </td>
             </tr>
 
             <tr></tr>
                 <td width="100%">
-                  <img src="images/not.png" alt="" width="100%" >                   
+                  <img src="images/not.png" alt="" class="try">                   
                 </td>
                 <td width="100%">
-                    <img src="images/hhhh.png" alt="" width="100%">
+                    <img src="images/hhhh.png" alt="" width="100%" class="try">
                 </td>
                 <td width="100%">
-                    <img src="images/java.png" alt="" width="100%">
+                    <img src="images/java.png" alt="" width="100%" class="try">
                 </td>
             </tr>
 
